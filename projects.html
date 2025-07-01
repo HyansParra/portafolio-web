@@ -3,37 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Proyectos | Tomasito</title>
+  <title>Proyectos | Hyans Parra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <header class="navbar">
-  <a href="index.html" class="logo">To<span>.</span></a>
+  <a href="index.html" class="logo">HP<span>.</span></a>
   <nav id="nav-menu">
-    <a href="about.html">Sobre mí</a>
-    <a href="projects.html">Proyectos</a>
-    <a href="blog.html">Blog</a>
-    <a href="index.html#contacto">Contacto</a>
+    <a href="about.html">SOBRE_MI</a>
+    <a href="projects.html">PROYECTOS</a>
+    <a href="blog.html">BLOG</a>
+    <a href="index.html#contacto">CONTACTO</a>
   </nav>
+  <button id="hamburger" aria-label="Menú móvil">☰</button>
 </header>
 
-<section class="projects">
-  <h1>Proyectos Destacados</h1>
+<section class="projects container">
+  <h1>> Proyectos Destacados</h1>
   <div class="card-grid">
+    
     <article class="card">
-      <img src="assets/img/projects/inventario.png" alt="Inventario Node">
+      <img src="https://i.imgur.com/pq463m6.png" alt="Imagen de un proyecto">
       <div class="card-body">
-        <h3>Sistema Inventario Node</h3>
-        <p>Aplicación full‑stack en Node.js, Express, SQLite y JWT.</p>
-        <a href="https://github.com/Tomasito/inventario-node" target="_blank" rel="noopener" class="btn-secondary">Código</a>
+        <h3>Sistema de Gestión (Java)</h3>
+        <p>Aplicación de escritorio desarrollada en Java con Swing para la gestión de inventario de una tienda local. Utiliza JDBC para la conexión con base de datos MySQL.</p>
+        <a href="https://github.com/HyansParra" target="_blank" class="btn btn-primary">VER_CODIGO</a>
       </div>
     </article>
-    <!-- Añade más tarjetas aquí -->
-  </div>
+
+    <article class="card">
+      <img src="https://i.imgur.com/pq463m6.png" alt="Imagen de un proyecto">
+      <div class="card-body">
+        <h3>API REST con Spring Boot</h3>
+        <p>Backend para una aplicación de blog. Expone endpoints para crear, leer, actualizar y eliminar posts y usuarios, con seguridad implementada usando Spring Security.</p>
+        <a href="https://github.com/HyansParra" target="_blank" class="btn btn-primary">VER_CODIGO</a>
+      </div>
+    </article>
+    
+    </div>
 </section>
 
 <footer>
-  © 2025 Tomasito
+  © 2025 Hyans Parra · <a href="https://github.com/HyansParra" target="_blank">GitHub</a>
 </footer>
 <script src="assets/js/main.js" defer></script>
 </body>

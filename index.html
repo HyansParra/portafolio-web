@@ -3,75 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portafolio de desarrollador web – proyectos, habilidades y contacto.">
-  <title>Tomasito | Desarrollador Web</title>
+  <meta name="description" content="Portafolio de Hyans Parra, Analista Programador.">
+  <title>Hyans Parra | Analista Programador</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <header class="navbar">
-  <a href="index.html" class="logo">TM<span>.</span></a>
+  <a href="index.html" class="logo">HP<span>.</span></a>
   <nav id="nav-menu">
-    <a href="about.html">Sobre mí</a>
-    <a href="projects.html">Proyectos</a>
-    <a href="blog.html">Blog</a>
-    <a href="#contacto">Contacto</a>
-    <button id="dark-toggle" aria-label="Alternar modo oscuro">🌓</button>
+    <a href="about.html">SOBRE_MI</a>
+    <a href="projects.html">PROYECTOS</a>
+    <a href="blog.html">BLOG</a>
+    <a href="#contacto">CONTACTO</a>
   </nav>
   <button id="hamburger" aria-label="Menú móvil">☰</button>
 </header>
 
 <section class="hero">
-  <img src="assets/img/hero.webp" alt="Imagen destacada de código">
   <div class="hero-text">
-    <h1>¡Hola!, soy <span>Tomasito</span></h1>
-    <p>Ingeniero en Computación especializado en JavaScript, Node y IA.</p>
-    <a href="assets/TomasitoCV.pdf" class="btn-primary" download>Descargar CV</a>
+    <h1>Hyans Parra<span>.</span></h1>
+    <p>Analista Programador del IP Santo Tomás, Ovalle. Apasionado por crear soluciones de software eficientes y robustas. Explorando el mundo del desarrollo web y la programación.</p>
+    <a href="assets/HyansParra_CV.pdf" class="btn btn-primary" download>DESCARGAR_CV</a>
   </div>
-</section>
-
-<section class="skills">
-  <h2>Habilidades</h2>
-  <ul class="skill-grid">
-    <li><img src="assets/img/icons/html.svg" alt="">HTML5</li>
-    <li><img src="assets/img/icons/css.svg"  alt="">CSS3</li>
-    <li><img src="assets/img/icons/js.svg"   alt="">JavaScript</li>
-    <li><img src="assets/img/icons/node.svg" alt="">Node.js</li>
-    <li><img src="assets/img/icons/react.svg"alt="">React</li>
-    <li><img src="assets/img/icons/sqlite.svg"alt="">SQLite</li>
-  </ul>
+  <img src="https://i.imgur.com/M2L6d32.gif" alt="GIF de computadora retro">
 </section>
 
 <section class="cta">
-  <h2>¿Quieres ver mi trabajo?</h2>
-  <a href="projects.html" class="btn-secondary">Ver proyectos</a>
+  <h2>¿Listo para ver mi trabajo?</h2>
+  <a href="projects.html" class="btn btn-primary">VER_PROYECTOS</a>
 </section>
 
 <section id="contacto" class="contact">
   <h2>Contacto</h2>
   <form id="contact-form" novalidate>
-    <label>Nombre
+    <label>NOMBRE:
       <input type="text" id="nombre" name="nombre" required>
       <span class="error" id="errorNombre"></span>
     </label>
 
-    <label>Correo electrónico
+    <label>CORREO:
       <input type="email" id="correo" name="correo" required>
       <span class="error" id="errorCorreo"></span>
     </label>
 
-    <label>Mensaje
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    <label>MENSAJE:
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
       <span class="error" id="errorMensaje"></span>
     </label>
 
-    <button type="submit" class="btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary">ENVIAR</button>
     <p class="success" id="successMsg"></p>
   </form>
 </section>
 
 <footer>
-  © 2025 Tomasito · <a href="https://github.com/Tomasito">GitHub</a> · 
-  <a href="https://www.linkedin.com/in/Tomasito">LinkedIn</a>
+  © 2025 Hyans Parra · <a href="https://github.com/HyansParra" target="_blank">GitHub</a>
 </footer>
 
 <script src="assets/js/main.js" defer></script>
